@@ -68,6 +68,7 @@
 				</tbody>
 				
 			</table>
+			<a href="/">Home</a>
 		</c:otherwise>
 		
 	</c:choose>			

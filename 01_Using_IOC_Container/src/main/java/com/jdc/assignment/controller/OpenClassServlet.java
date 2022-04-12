@@ -61,9 +61,7 @@ public class OpenClassServlet extends AbstractBeanFactoryServlet{
 //		get course object from courseModel by courseId
 		
 		var course = model.findByCourseId(Integer.parseInt(courseId));
-		
-
-		
+			
 //		create open class object
 		
 		var op = new OpenClass();

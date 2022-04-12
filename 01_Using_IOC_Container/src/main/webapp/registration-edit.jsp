@@ -22,6 +22,19 @@
 			<c:param name="classId" value="${openClass.id}"></c:param>
 		</c:url>
 		<form action="${saveStudent }" method="post">
+		
+		<div class="row">
+				<div class="col-6">
+					<label for="id">Class Id</label>
+					<input type="text" id="id"  value="${openClass.id }" readonly="readonly" class="form-control" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<label for="teacher">Teacher</label>
+					<input type="text" id="teacher"  value="${openClass.teacher }" readonly="readonly" class="form-control" />
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-6">
 					<label for="studentName">Student Name</label>

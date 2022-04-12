@@ -21,7 +21,22 @@
 		<c:url var="save" value="/class-save">
 			<c:param name="courseId" value="${course.id }"></c:param>
 		</c:url>
+		
+		
 		<form action="${save }" method="post">
+		
+		<div class="row">
+			<div class="col-4">
+				<label for="">Course Id</label>
+				<input type="text" value="${course.id }" class="form-control" readonly="readonly" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<label for="">Course Name</label>
+				<input type="text" value="${course.name }" class="form-control" readonly="readonly" />
+			</div>
+		</div>
 			<div class="row">
 			<div class="col-4">
 				<label for="teacherName">Teacher Name</label>	
